@@ -1,0 +1,96 @@
+body {
+  overflow: hidden;
+}
+
+.login-register-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #eee;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .login-register-wrap {
+    margin: 12px;
+  }
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.forgot-form-forgot {
+  float: left;
+}
+
+.or-seperator {
+  margin-top: 100px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.or-seperator p {
+  top: -13px;
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  background: #eee;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+.google-btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.google-btn {
+  width: 100%;
+  height: 42px;
+  background-color: #4285f4;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+  margin: 0px 0 -50px 0;
+}
+
+.google-btn .google-icon-wrapper {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.google-btn .google-icon {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 11px;
+  width: 18px;
+  height: 18px;
+}
+
+.google-btn .btn-text {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-family: 'Roboto';
+  margin-right: -40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.google-btn:hover {
+  box-shadow: 0 0 6px #4285f4;
+}
+
+.google-btn:active {
+  background: #1669f2;
+}
