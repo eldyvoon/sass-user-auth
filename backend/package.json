@@ -14,7 +14,7 @@
     "express-jwt": "^5.3.1",
     "express-session": "^1.15.6",
     "faker": "^4.1.0",
-    "jsonwebtoken": "^8.2.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.1",
